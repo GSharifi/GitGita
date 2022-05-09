@@ -7,7 +7,7 @@ AS
 BEGIN
 SET NOCOUNT ON
  
-/***vesion 11***/
+/***vesion 12***/
  
 SELECT Product_ID, Product, Price, Category, Manufacturer_ID 
 FROM Movies.dbo.Products

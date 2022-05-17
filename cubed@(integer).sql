@@ -3,7 +3,7 @@ create function cubed(INOUT x integer) returns integer
 as
 $$
 BEGIN
-    --Comment 13
+    --Comment 14
     x := x^3;
 END;
 $$;

@@ -1,0 +1,331 @@
+<SOAP-ENV:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:SOAP-ENC="http://schemas.xmlsoap.org/soap/encoding/" xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:clr="http://schemas.microsoft.com/soap/encoding/clr/1.0" SOAP-ENV:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/">
+<SOAP-ENV:Body>
+<a1:ProjectSetting id="ref-1" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/Quest.Toad.VersionControl/ToadCore">
+<includeList href="#ref-3"/>
+<excludeList href="#ref-4"/>
+<typeLocations href="#ref-5"/>
+<fileFormatCreate id="ref-6">[{Database}].[{Schema}].[{Object Name}]</fileFormatCreate>
+<fileFormatChange href="#ref-6"/>
+<revisionCounter>1</revisionCounter>
+<timeStampString id="ref-7">Wednesday, 20 April 2022 16:24:50</timeStampString>
+</a1:ProjectSetting>
+<a2:ArrayList id="ref-3" xmlns:a2="http://schemas.microsoft.com/clr/ns/System.Collections">
+<_items href="#ref-8"/>
+<_size>0</_size>
+<_version>0</_version>
+</a2:ArrayList>
+<a2:ArrayList id="ref-4" xmlns:a2="http://schemas.microsoft.com/clr/ns/System.Collections">
+<_items href="#ref-8"/>
+<_size>0</_size>
+<_version>0</_version>
+</a2:ArrayList>
+<a2:ArrayList id="ref-5" xmlns:a2="http://schemas.microsoft.com/clr/ns/System.Collections">
+<_items href="#ref-9"/>
+<_size>23</_size>
+<_version>23</_version>
+</a2:ArrayList>
+<SOAP-ENC:Array id="ref-8" SOAP-ENC:arrayType="xsd:anyType[0]">
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-9" SOAP-ENC:arrayType="xsd:anyType[32]">
+<item href="#ref-10"/>
+<item href="#ref-11"/>
+<item href="#ref-12"/>
+<item href="#ref-13"/>
+<item href="#ref-14"/>
+<item href="#ref-15"/>
+<item href="#ref-16"/>
+<item href="#ref-17"/>
+<item href="#ref-18"/>
+<item href="#ref-19"/>
+<item href="#ref-20"/>
+<item href="#ref-21"/>
+<item href="#ref-22"/>
+<item href="#ref-23"/>
+<item href="#ref-24"/>
+<item href="#ref-25"/>
+<item href="#ref-26"/>
+<item href="#ref-27"/>
+<item href="#ref-28"/>
+<item href="#ref-29"/>
+<item href="#ref-30"/>
+<item href="#ref-31"/>
+<item href="#ref-32"/>
+</SOAP-ENC:Array>
+<a1:FolderSetting id="ref-10" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/Quest.Toad.VersionControl/ToadCore">
+<currentSpec xsi:type="xsd:anyType" xsi:null="1"/>
+<currentFolder xsi:type="xsd:anyType" xsi:null="1"/>
+<currentExtension id="ref-33">sql</currentExtension>
+<defaultSpec id="ref-34">Server SQL Scripts</defaultSpec>
+<defaultFolder href="#ref-34"/>
+<defaultExtension href="#ref-33"/>
+<type id="ref-35">SQL</type>
+<subtype id="ref-36">Create</subtype>
+<displayName href="#ref-34"/>
+<server>true</server>
+</a1:FolderSetting>
+<a1:FolderSetting id="ref-11" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/Quest.Toad.VersionControl/ToadCore">
+<currentSpec xsi:type="xsd:anyType" xsi:null="1"/>
+<currentFolder xsi:type="xsd:anyType" xsi:null="1"/>
+<currentExtension href="#ref-33"/>
+<defaultSpec id="ref-37">SQL Scripts</defaultSpec>
+<defaultFolder href="#ref-37"/>
+<defaultExtension href="#ref-33"/>
+<type href="#ref-35"/>
+<subtype href="#ref-36"/>
+<displayName href="#ref-37"/>
+<server>false</server>
+</a1:FolderSetting>
+<a1:FolderSetting id="ref-12" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/Quest.Toad.VersionControl/ToadCore">
+<currentSpec xsi:type="xsd:anyType" xsi:null="1"/>
+<currentFolder xsi:type="xsd:anyType" xsi:null="1"/>
+<currentExtension xsi:type="xsd:anyType" xsi:null="1"/>
+<defaultSpec id="ref-38">Database</defaultSpec>
+<defaultFolder href="#ref-38"/>
+<defaultExtension href="#ref-33"/>
+<type id="ref-39">DATABASE</type>
+<subtype href="#ref-36"/>
+<displayName id="ref-40">Database Create Scripts</displayName>
+<server>false</server>
+</a1:FolderSetting>
+<a1:FolderSetting id="ref-13" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/Quest.Toad.VersionControl/ToadCore">
+<currentSpec xsi:type="xsd:anyType" xsi:null="1"/>
+<currentFolder xsi:type="xsd:anyType" xsi:null="1"/>
+<currentExtension xsi:type="xsd:anyType" xsi:null="1"/>
+<defaultSpec href="#ref-38"/>
+<defaultFolder href="#ref-38"/>
+<defaultExtension href="#ref-33"/>
+<type href="#ref-39"/>
+<subtype id="ref-41">Change</subtype>
+<displayName id="ref-42">Database Change Scripts</displayName>
+<server>false</server>
+</a1:FolderSetting>
+<a1:FolderSetting id="ref-14" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/Quest.Toad.VersionControl/ToadCore">
+<currentSpec xsi:type="xsd:anyType" xsi:null="1"/>
+<currentFolder xsi:type="xsd:anyType" xsi:null="1"/>
+<currentExtension xsi:type="xsd:anyType" xsi:null="1"/>
+<defaultSpec id="ref-43">Table</defaultSpec>
+<defaultFolder href="#ref-43"/>
+<defaultExtension href="#ref-33"/>
+<type id="ref-44">TABLE</type>
+<subtype href="#ref-36"/>
+<displayName id="ref-45">Table Create Scripts</displayName>
+<server>false</server>
+</a1:FolderSetting>
+<a1:FolderSetting id="ref-15" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/Quest.Toad.VersionControl/ToadCore">
+<currentSpec xsi:type="xsd:anyType" xsi:null="1"/>
+<currentFolder xsi:type="xsd:anyType" xsi:null="1"/>
+<currentExtension xsi:type="xsd:anyType" xsi:null="1"/>
+<defaultSpec href="#ref-43"/>
+<defaultFolder href="#ref-43"/>
+<defaultExtension href="#ref-33"/>
+<type href="#ref-44"/>
+<subtype href="#ref-41"/>
+<displayName id="ref-46">Table Change Scripts</displayName>
+<server>false</server>
+</a1:FolderSetting>
+<a1:FolderSetting id="ref-16" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/Quest.Toad.VersionControl/ToadCore">
+<currentSpec xsi:type="xsd:anyType" xsi:null="1"/>
+<currentFolder xsi:type="xsd:anyType" xsi:null="1"/>
+<currentExtension xsi:type="xsd:anyType" xsi:null="1"/>
+<defaultSpec id="ref-47">View</defaultSpec>
+<defaultFolder href="#ref-47"/>
+<defaultExtension href="#ref-33"/>
+<type id="ref-48">VIEW</type>
+<subtype href="#ref-36"/>
+<displayName id="ref-49">View Create Scripts</displayName>
+<server>false</server>
+</a1:FolderSetting>
+<a1:FolderSetting id="ref-17" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/Quest.Toad.VersionControl/ToadCore">
+<currentSpec xsi:type="xsd:anyType" xsi:null="1"/>
+<currentFolder xsi:type="xsd:anyType" xsi:null="1"/>
+<currentExtension xsi:type="xsd:anyType" xsi:null="1"/>
+<defaultSpec href="#ref-47"/>
+<defaultFolder href="#ref-47"/>
+<defaultExtension href="#ref-33"/>
+<type href="#ref-48"/>
+<subtype href="#ref-41"/>
+<displayName id="ref-50">View Change Scripts</displayName>
+<server>false</server>
+</a1:FolderSetting>
+<a1:FolderSetting id="ref-18" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/Quest.Toad.VersionControl/ToadCore">
+<currentSpec xsi:type="xsd:anyType" xsi:null="1"/>
+<currentFolder xsi:type="xsd:anyType" xsi:null="1"/>
+<currentExtension xsi:type="xsd:anyType" xsi:null="1"/>
+<defaultSpec id="ref-51">Trigger</defaultSpec>
+<defaultFolder href="#ref-51"/>
+<defaultExtension href="#ref-33"/>
+<type id="ref-52">TRIGGER</type>
+<subtype href="#ref-36"/>
+<displayName id="ref-53">Trigger</displayName>
+<server>false</server>
+</a1:FolderSetting>
+<a1:FolderSetting id="ref-19" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/Quest.Toad.VersionControl/ToadCore">
+<currentSpec xsi:type="xsd:anyType" xsi:null="1"/>
+<currentFolder xsi:type="xsd:anyType" xsi:null="1"/>
+<currentExtension xsi:type="xsd:anyType" xsi:null="1"/>
+<defaultSpec id="ref-54">Procedure</defaultSpec>
+<defaultFolder href="#ref-54"/>
+<defaultExtension href="#ref-33"/>
+<type id="ref-55">STOREDPROC</type>
+<subtype href="#ref-36"/>
+<displayName id="ref-56">Procedure Create Scripts</displayName>
+<server>false</server>
+</a1:FolderSetting>
+<a1:FolderSetting id="ref-20" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/Quest.Toad.VersionControl/ToadCore">
+<currentSpec xsi:type="xsd:anyType" xsi:null="1"/>
+<currentFolder xsi:type="xsd:anyType" xsi:null="1"/>
+<currentExtension xsi:type="xsd:anyType" xsi:null="1"/>
+<defaultSpec href="#ref-54"/>
+<defaultFolder href="#ref-54"/>
+<defaultExtension href="#ref-33"/>
+<type href="#ref-55"/>
+<subtype href="#ref-41"/>
+<displayName id="ref-57">Procedure Change Scripts</displayName>
+<server>false</server>
+</a1:FolderSetting>
+<a1:FolderSetting id="ref-21" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/Quest.Toad.VersionControl/ToadCore">
+<currentSpec xsi:type="xsd:anyType" xsi:null="1"/>
+<currentFolder xsi:type="xsd:anyType" xsi:null="1"/>
+<currentExtension xsi:type="xsd:anyType" xsi:null="1"/>
+<defaultSpec id="ref-58">Function</defaultSpec>
+<defaultFolder href="#ref-58"/>
+<defaultExtension href="#ref-33"/>
+<type id="ref-59">UDF</type>
+<subtype href="#ref-36"/>
+<displayName id="ref-60">Function Create Scripts</displayName>
+<server>false</server>
+</a1:FolderSetting>
+<a1:FolderSetting id="ref-22" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/Quest.Toad.VersionControl/ToadCore">
+<currentSpec xsi:type="xsd:anyType" xsi:null="1"/>
+<currentFolder xsi:type="xsd:anyType" xsi:null="1"/>
+<currentExtension xsi:type="xsd:anyType" xsi:null="1"/>
+<defaultSpec href="#ref-58"/>
+<defaultFolder href="#ref-58"/>
+<defaultExtension href="#ref-33"/>
+<type href="#ref-59"/>
+<subtype href="#ref-41"/>
+<displayName id="ref-61">Function Change Scripts</displayName>
+<server>false</server>
+</a1:FolderSetting>
+<a1:FolderSetting id="ref-23" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/Quest.Toad.VersionControl/ToadCore">
+<currentSpec xsi:type="xsd:anyType" xsi:null="1"/>
+<currentFolder xsi:type="xsd:anyType" xsi:null="1"/>
+<currentExtension xsi:type="xsd:anyType" xsi:null="1"/>
+<defaultSpec id="ref-62">User-Defined Data Type</defaultSpec>
+<defaultFolder href="#ref-62"/>
+<defaultExtension href="#ref-33"/>
+<type id="ref-63">UDDT</type>
+<subtype href="#ref-36"/>
+<displayName id="ref-64">User-Defined Data Type Create Scripts</displayName>
+<server>false</server>
+</a1:FolderSetting>
+<a1:FolderSetting id="ref-24" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/Quest.Toad.VersionControl/ToadCore">
+<currentSpec xsi:type="xsd:anyType" xsi:null="1"/>
+<currentFolder xsi:type="xsd:anyType" xsi:null="1"/>
+<currentExtension xsi:type="xsd:anyType" xsi:null="1"/>
+<defaultSpec href="#ref-62"/>
+<defaultFolder href="#ref-62"/>
+<defaultExtension href="#ref-33"/>
+<type href="#ref-63"/>
+<subtype href="#ref-41"/>
+<displayName id="ref-65">User-Defined Data Type Change Scripts</displayName>
+<server>false</server>
+</a1:FolderSetting>
+<a1:FolderSetting id="ref-25" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/Quest.Toad.VersionControl/ToadCore">
+<currentSpec xsi:type="xsd:anyType" xsi:null="1"/>
+<currentFolder xsi:type="xsd:anyType" xsi:null="1"/>
+<currentExtension xsi:type="xsd:anyType" xsi:null="1"/>
+<defaultSpec id="ref-66">Default</defaultSpec>
+<defaultFolder href="#ref-66"/>
+<defaultExtension href="#ref-33"/>
+<type id="ref-67">DEFAULT</type>
+<subtype href="#ref-36"/>
+<displayName id="ref-68">Default Create Scripts</displayName>
+<server>false</server>
+</a1:FolderSetting>
+<a1:FolderSetting id="ref-26" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/Quest.Toad.VersionControl/ToadCore">
+<currentSpec xsi:type="xsd:anyType" xsi:null="1"/>
+<currentFolder xsi:type="xsd:anyType" xsi:null="1"/>
+<currentExtension xsi:type="xsd:anyType" xsi:null="1"/>
+<defaultSpec href="#ref-66"/>
+<defaultFolder href="#ref-66"/>
+<defaultExtension href="#ref-33"/>
+<type href="#ref-67"/>
+<subtype href="#ref-41"/>
+<displayName id="ref-69">Default Change Scripts</displayName>
+<server>false</server>
+</a1:FolderSetting>
+<a1:FolderSetting id="ref-27" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/Quest.Toad.VersionControl/ToadCore">
+<currentSpec xsi:type="xsd:anyType" xsi:null="1"/>
+<currentFolder xsi:type="xsd:anyType" xsi:null="1"/>
+<currentExtension xsi:type="xsd:anyType" xsi:null="1"/>
+<defaultSpec id="ref-70">Rule</defaultSpec>
+<defaultFolder href="#ref-70"/>
+<defaultExtension href="#ref-33"/>
+<type id="ref-71">RULE</type>
+<subtype href="#ref-36"/>
+<displayName id="ref-72">Rule Create Scripts</displayName>
+<server>false</server>
+</a1:FolderSetting>
+<a1:FolderSetting id="ref-28" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/Quest.Toad.VersionControl/ToadCore">
+<currentSpec xsi:type="xsd:anyType" xsi:null="1"/>
+<currentFolder xsi:type="xsd:anyType" xsi:null="1"/>
+<currentExtension xsi:type="xsd:anyType" xsi:null="1"/>
+<defaultSpec href="#ref-70"/>
+<defaultFolder href="#ref-70"/>
+<defaultExtension href="#ref-33"/>
+<type href="#ref-71"/>
+<subtype href="#ref-41"/>
+<displayName id="ref-73">Rule Change Scripts</displayName>
+<server>false</server>
+</a1:FolderSetting>
+<a1:FolderSetting id="ref-29" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/Quest.Toad.VersionControl/ToadCore">
+<currentSpec xsi:type="xsd:anyType" xsi:null="1"/>
+<currentFolder xsi:type="xsd:anyType" xsi:null="1"/>
+<currentExtension xsi:type="xsd:anyType" xsi:null="1"/>
+<defaultSpec id="ref-74">Sequence</defaultSpec>
+<defaultFolder href="#ref-74"/>
+<defaultExtension href="#ref-33"/>
+<type id="ref-75">SEQUENCE</type>
+<subtype href="#ref-36"/>
+<displayName id="ref-76">Sequence Create Scripts</displayName>
+<server>false</server>
+</a1:FolderSetting>
+<a1:FolderSetting id="ref-30" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/Quest.Toad.VersionControl/ToadCore">
+<currentSpec xsi:type="xsd:anyType" xsi:null="1"/>
+<currentFolder xsi:type="xsd:anyType" xsi:null="1"/>
+<currentExtension xsi:type="xsd:anyType" xsi:null="1"/>
+<defaultSpec href="#ref-74"/>
+<defaultFolder href="#ref-74"/>
+<defaultExtension href="#ref-33"/>
+<type href="#ref-75"/>
+<subtype href="#ref-41"/>
+<displayName id="ref-77">Sequence Change Scripts</displayName>
+<server>false</server>
+</a1:FolderSetting>
+<a1:FolderSetting id="ref-31" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/Quest.Toad.VersionControl/ToadCore">
+<currentSpec xsi:type="xsd:anyType" xsi:null="1"/>
+<currentFolder xsi:type="xsd:anyType" xsi:null="1"/>
+<currentExtension xsi:type="xsd:anyType" xsi:null="1"/>
+<defaultSpec id="ref-78">Database Trigger</defaultSpec>
+<defaultFolder href="#ref-78"/>
+<defaultExtension href="#ref-33"/>
+<type id="ref-79">DATABASE-TRIGGER</type>
+<subtype href="#ref-36"/>
+<displayName id="ref-80">Database Trigger Create Scripts</displayName>
+<server>false</server>
+</a1:FolderSetting>
+<a1:FolderSetting id="ref-32" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/Quest.Toad.VersionControl/ToadCore">
+<currentSpec xsi:type="xsd:anyType" xsi:null="1"/>
+<currentFolder xsi:type="xsd:anyType" xsi:null="1"/>
+<currentExtension xsi:type="xsd:anyType" xsi:null="1"/>
+<defaultSpec href="#ref-78"/>
+<defaultFolder href="#ref-78"/>
+<defaultExtension href="#ref-33"/>
+<type href="#ref-79"/>
+<subtype href="#ref-41"/>
+<displayName id="ref-81">Database Trigger Change Scripts</displayName>
+<server>false</server>
+</a1:FolderSetting>
+</SOAP-ENV:Body>
+</SOAP-ENV:Envelope>
